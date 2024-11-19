@@ -1,0 +1,23 @@
+body {
+  cursor: none !important;
+}
+@keyframes rotate {
+  from {
+    background-position: 0% center;
+  }
+
+  50% {
+    scale: 1 1.5;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+#fake-cursor,
+#fake-cursor2,
+#fake-cursor3 {
+  z-index: 100;
+  @apply hidden md:grid fixed top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none transition-all;
+}

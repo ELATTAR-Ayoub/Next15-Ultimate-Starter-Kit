@@ -47,7 +47,7 @@ export default function Home() {
             Reset Count
           </Button>
         </div>
-        <Link href={"/home"}>Go Home</Link>
+        <Link href={"/"}>Go Back</Link>
       </div>
     </div>
   );

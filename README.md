@@ -46,32 +46,33 @@ To get started, follow these steps:
    Install the necessary dependencies using npm or yarn:
 
    ```bash
-   npm run dev
+    npm run dev
+
+    # or
+
+    yarn dev
+
+    # or
+
+    pnpm dev
+
+    # or
+
+    bun dev
    ```
 
-# or
-
-yarn dev
-
-# or
-
-pnpm dev
-
-# or
-
-bun dev
-
-````
-
-2. **Run the Application:**:
+3. **Run the Application:**:
 
    After configuring Firebase, run the development server:
 
    ```bash
-npm run dev
-# or
-yarn dev
-````
+   npm run dev
+
+    # or
+
+    yarn dev
+
+   ```
 
 ## Contributing
 
